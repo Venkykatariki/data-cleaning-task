@@ -1,9 +1,13 @@
-# data-cleaning-task
-Data Cleaning and Preprocessing Task Submission
+# Data Cleaning and Preprocessing Task
 
-1. Identify and handle missing values using .isnull() in Python or filters in Excel.
-2. Remove duplicate rows using .drop_duplicates() or Excel’s “Remove Duplicates”.
-3. Standardize text values like gender, country names, etc.
-4. Convert date formats to a consistent type (e.g., dd-mm-yyyy).
-5. Rename column headers to be clean and uniform (e.g., lowercase, no spaces).
-6. Check and fix data types (e.g., age should be int, date as datetime).
+## Description
+This project involved cleaning a customer personality dataset to make it suitable for analysis.
+
+## Summary of Changes
+
+- Removed 24 rows with missing income values
+- Dropped all duplicate rows (if any were found)
+- Standardized text values in columns like `Education` and `Marital_Status`
+- Converted `Dt_Customer` to datetime format
+- Renamed column headers to lowercase and replaced spaces with underscores
+- Verified and corrected data types (e.g., income as float, date as datetime)
